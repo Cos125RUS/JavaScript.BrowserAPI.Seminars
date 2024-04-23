@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .boxes {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            padding-top: 25px;
+        }
+
+        .box {
+            width: 100px;
+            height: 100px;
+            background-color: rgb(149, 149, 227);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="buttons">
+            <button class="add-button">add box</button>
+            <button class="del-button">delete box</button>
+            <button class="clone-button">clone box</button>
+        </div>
+        <div class="boxes">
+            <div class="box">1</div>
+            <div class="box">2</div>
+            <div class="box">3</div>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
